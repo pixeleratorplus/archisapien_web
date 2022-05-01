@@ -1,4 +1,5 @@
-body {
+html, body {
+  /* height: 100%;   width: 100%; */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --font-family1: 'Helvetica';
+  --font-family2: 'Outfit';
+  --font-family3: 'Intro Script-Trial';
+  --font-family4: 'Arial Nova';
+  --font-family5: 'Poppins';
+  --font-family6: 'Montserrat';
+
+  --gradient-animation: linear-gradient(45deg, #0fb353, #1aa073, #70f0c5 );
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar1: linear-gradient(103.22deg, #CAFFDF -13.86%, #F8F8F8 80.55%);
+  --gradient-bar2: linear-gradient(103.22deg, #E4F3FF -13.86%, #F8F8F8 80.55%);
+  --gradient-bar3: linear-gradient(103.22deg, #CDD8FF -13.86%, #F8F8F8 80.55%);
+  --gradient-bar4: linear-gradient(103.22deg, #FFECF0 -13.86%, #F8F8F8 80.55%);
+  --gradient-bar5: linear-gradient(103.22deg, #FFF1D6 -13.86%, #F8F8F8 80.55%);
+  
+  --color-bg-navy: #040C18;
+  --color-bg-white: #ffffff;
+  --color-footer : #031B34;
+  --color-text-black: #000000;
+  --color-subtext-grey: #676767;
+  --color-text-white: #ffffff;
+  --color-subtext: #FF8A71;
+  --color-theme: #20b46a;
+  width: 100%
 }

@@ -24,6 +24,16 @@ export const Button1 = styled(Link)`
     color: var(--color-theme);
     border: 1px solid var(--color-theme);
   }
+  @media screen and (max-width: 480px) {
+  font-size: 12px;
+  padding: 4px 15px 5px;
+
+  }
+  @media screen and (max-width: 768px) {
+  padding: 4px 15px 5px;
+  font-size: 12px;
+
+  }
 `;
 export const Button2 = styled(Link)`
   border-radius: 6rem;
@@ -42,6 +52,12 @@ export const Button2 = styled(Link)`
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 28px;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 export const Button3 = styled.a`
   border-radius: 6rem;
@@ -66,6 +82,16 @@ export const Button3 = styled.a`
     color: #0057FF;
     border: 1px solid #0057FF;
   }
+  @media screen and (max-width: 480px) {
+    font-size: 12px;
+  line-height: 14px;
+  padding: 10px 18px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  line-height: 14px;
+  padding: 10px 18px;
+  }
 `;
 
 export const Button4 = styled.button`
@@ -87,6 +113,20 @@ export const Button4 = styled.button`
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 18px;
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  line-height: 14px;
+  border-radius: 4px;
+  padding: 5px 10px 4px;
+
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  line-height: 14px;
+  border-radius: 4px;
+  padding: 5px 10px 4px;
+
+  }
 `;
 
 export const Button5 = styled(Link)`
@@ -110,6 +150,20 @@ export const Button5 = styled(Link)`
   line-height: 28px;
   &:hover {
     transform: scale(1.1);
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  line-height: 14px;
+  border-radius: 4px;
+  padding: 5px 10px 4px;
+
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  line-height: 14px;
+  border-radius: 4px;
+  padding: 5px 10px 4px;
+
   }
 `;
 

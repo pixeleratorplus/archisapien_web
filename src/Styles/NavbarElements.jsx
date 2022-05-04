@@ -15,7 +15,8 @@ export const Nav = styled.nav`
   top:0;
   z-index: 8;
   width: 100%;
-  flex-direction: row;  
+  flex-direction: row;
+
 `;
 
 export const NavLogo = styled(LinkR) `
@@ -28,6 +29,14 @@ padding: 0 0 0 4.5rem;
 font-size: 2.5rem;
 align-items: center;
 font-family: var(--font-family3);
+@media screen and (max-width: 480px) {
+  padding: 0 0 0 1.5rem;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  padding: 0 0 0 1.5rem;
+  font-size: 1.5rem;
+}
 `
 
 export const NavMenu = styled.nav`
@@ -36,14 +45,17 @@ export const NavMenu = styled.nav`
   list-style: none;
   align-items: center;
   padding: 0 4.5rem 0 0;
-  // @media screen and (max-width: 480px) {
-  //   display: none;
-  // }
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const IconContainer = styled.span`
- padding: 0 10px 0 0;
- display:flex;
+  padding: 0 10px 0 0;
+  display:flex;
   justify-content: center;
 `
 export const Download = styled.a`

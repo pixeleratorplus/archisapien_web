@@ -10,12 +10,26 @@ display: flex;
 justify-content: space-between;
 margin: 12rem 0 0 0;
 padding: 8rem 0 2rem 15rem;
+@media screen and (max-width: 480px) {
+  margin: 9rem 0 0 0;
+  padding: 4rem 1rem 2rem 2rem;
+}
+@media screen and (max-width: 768px) {
+  padding: 4rem 0 2rem 2rem;
+  margin: 9rem 0 0 0;
+}
 `;
 export const HeadingMain = styled.h1`
       font-family: var(--font-family1);
       font-size: 3.5em;
       font-weight: 700;
       color: var(--color-text-black);
+      @media screen and (max-width: 480px) {
+        font-size: 1.5em;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 1.5em;
+      }
 `;
 export const Heading = styled.span`
   background: var(--gradient-animation);

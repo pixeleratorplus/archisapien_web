@@ -11,10 +11,9 @@ function Footer() {
     return (
     <>
     <Container>
-    <Updated>Last updated on April '22</Updated>
 
     <Container2>
-     <Heading>© 2022 Made with ❤️ by Amitesh | India</Heading>
+     <Heading>© 2022 Made with ❤️ by Amitesh | India | Last updated on April '22</Heading>
     </Container2>
     <Top onClick={toggleHome}><Button4>Go To Top</Button4></Top>
 

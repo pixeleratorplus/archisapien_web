@@ -50,7 +50,16 @@ export const Updated= styled.div`
   }
 `
 export const Top= styled.div`
-  position: fixed;
-
+  position: relative;
+  left: 250px;
+  bottom: 35px;
   font-family: var(--font-family1);
+  @media screen and (max-width: 480px) {
+    left: 250px;
+  bottom: 75px;
+  }
+  @media screen and (max-width: 768px) {
+    left: 250px;
+  bottom: 75px;
+  }
 `

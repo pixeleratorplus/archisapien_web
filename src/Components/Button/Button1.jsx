@@ -148,21 +148,21 @@ export const Button5 = styled(Link)`
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 28px;
+  opacity: 0.75;
   &:hover {
     transform: scale(1.1);
+    opacity: 1;
   }
   @media screen and (max-width: 480px) {
-    font-size: 20px;
+    font-size: 16px;
   line-height: 14px;
-  border-radius: 4px;
-  padding: 5px 10px 4px;
+  padding: 5px 15px 6px;
 
   }
   @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 16px;
   line-height: 14px;
-  border-radius: 4px;
-  padding: 5px 10px 4px;
+  padding: 5px 15px 6px;
 
   }
 `;

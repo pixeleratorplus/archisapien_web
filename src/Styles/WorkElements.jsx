@@ -4,10 +4,6 @@ export const Container = styled.div`
 display: flex;
 flex-direction: column;
 margin: 7rem 22rem 2rem;
-@media screen and (max-width: 480px) {
-  justify-content: center;
-  flex-direction: column;
-}
 `;
 export const Heading = styled.div`
     display: flex;
@@ -32,22 +28,12 @@ export const SubHeading = styled.div`
     line-height: 40px;
     text-align: left;
     padding: 55px 0 25px 0;
-
-    @media screen and (max-width: 480px) {
-    padding: 30px 30px 0 30px;
-    max-width: 500px;
-    text-align: left;
-    }
 `;
 export const CardPadding = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 4.5rem 0 0 0; 
-@media screen and (max-width: 480px) {
-  justify-content: center;
-  flex-direction: column;
-}
 `;
 export const Card = styled.div`
     // display: flex;
@@ -82,9 +68,9 @@ export const Row = styled.div`
 //   grid-auto-columns: minmax(auto, 1fr);
   grid-template-areas: 'col1 col2';
   
-  @media screen and (max-width: 768px) {
-    grid-template-areas: 'col1 col1' 'col2 col2';
-  }
+  // @media screen and (max-width: 768px) {
+  //   grid-template-areas: 'col1 col1' 'col2 col2';
+  // }
 `
 export const IconContainer = styled.span`
     padding: 4px 0 0 10px;
@@ -97,8 +83,4 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 4rem 0; 
-@media screen and (max-width: 480px) {
-  justify-content: center;
-  flex-direction: column;
-}
 `;

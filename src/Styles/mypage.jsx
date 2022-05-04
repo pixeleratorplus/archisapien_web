@@ -52,9 +52,6 @@ export const Heading = styled.div`
       font-size: 3.5em;
       font-weight: 700;
       color: var(--color-text-white);
-      @media screen and (max-width: 480px) {
-        font-size: 1.5em;
-      }
 `;
 export const HeroContent = styled.div`
   z-index: 3;
@@ -78,10 +75,6 @@ flex-direction: column;
 justify-content: center;
 // align-items: center;
 margin: 3rem 18rem 12rem;
-@media screen and (max-width: 480px) {
-  justify-content: center;
-  flex-direction: column;
-}
 `;
 
 export const Heading2 = styled.h2`
@@ -102,9 +95,6 @@ export const Group = styled.div`
     align-items: center;
     padding: 4rem 0 0 0;
     transform: scale(0.98);
-    @media screen and (max-width: 1400px) {
-        transform: scale(0.8);
-      }
 `;
 export const GroupA = styled.div`
     flex: 1;
@@ -131,11 +121,6 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 margin: 7rem 18rem 2rem;
-
-@media screen and (max-width: 480px) {
-  justify-content: center;
-  flex-direction: column;
-}
 `;
 export const Message = styled.div`
     font-family: var(--font-family4);
@@ -146,13 +131,6 @@ export const Message = styled.div`
     padding: 1.5rem 0 3rem 0;
     // max-width: 36rem;
     text-align: justify;
-
-
-    @media screen and (max-width: 480px) {
-    padding: 30px 30px 0 30px;
-    max-width: 500px;
-    text-align: left;
-    }
 `;
 export const Heading3 = styled.h1`
         font-family: var(--font-family4);
@@ -162,7 +140,4 @@ export const Heading3 = styled.h1`
         line-height: 28px;
         text-transform: uppercase;
         color: var(--color-text-black);
-      @media screen and (max-width: 480px) {
-        font-size: 1.5em;
-      }
 `;

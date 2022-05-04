@@ -1,12 +1,9 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans Expanded', sans-serif;
 }
-
-
-body {
-  background: var(--color-bg-white);
-}
-
 /* a {
   color: unset;
   text-decoration: none;

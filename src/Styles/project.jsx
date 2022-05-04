@@ -4,10 +4,6 @@ export const Container = styled.div`
 display: flex;
 flex-direction: column;
 margin: 12rem 0;
-@media screen and (max-width: 480px) {
-  justify-content: center;
-  flex-direction: column;
-}
 `;
 
 export const HeadingPad = styled.div`

@@ -1,5 +1,4 @@
-html, body {
-  /* height: 100%;   width: 100%; */
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -13,10 +12,10 @@ code {
     monospace;
 }
 
-:root {
+#root {
   --font-family1: 'Helvetica';
-  --font-family2: 'Outfit';
-  --font-family3: 'Intro Script-Trial';
+  --font-family2: 'Outfit Light';
+  --font-family3: 'IntroScript';
   --font-family4: 'Arial Nova';
   --font-family5: 'Poppins';
   --font-family6: 'Montserrat';
@@ -37,5 +36,4 @@ code {
   --color-text-white: #ffffff;
   --color-subtext: #FF8A71;
   --color-theme: #20b46a;
-  width: 100%
 }

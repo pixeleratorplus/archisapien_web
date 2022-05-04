@@ -53,10 +53,12 @@ export const Button2 = styled(Link)`
   font-size: 1.5rem;
   line-height: 28px;
   @media screen and (max-width: 480px) {
-    display: none;
+  padding: 8px 25px;
+  font-size: 1rem;
   }
   @media screen and (max-width: 768px) {
-    display: none;
+    padding: 8px 25px;
+  font-size: 1rem;
   }
 `;
 export const Button3 = styled.a`

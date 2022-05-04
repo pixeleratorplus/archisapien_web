@@ -23,12 +23,12 @@ export const Updated= styled.div`
   display:flex;
   justify-content: flex-start;
   padding: 0 0 0 4.5rem;
-  font-family: var(--font-family4);
+  font-family: var(--font-family1);
 `
 export const Top= styled.div`
   display:flex;
   justify-content: flex-end;
   padding: 0 4.5rem 0 0;
 
-  font-family: var(--font-family4);
+  font-family: var(--font-family1);
 `

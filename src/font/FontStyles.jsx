@@ -25,7 +25,7 @@ export const FontStyle = createGlobalStyle`
 
 
   @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat1';
     src: url(${Montserrat2}) format('woff2'),
          url(${Montserrat}) format('woff');
   }
@@ -35,28 +35,16 @@ export const FontStyle = createGlobalStyle`
     src: url(${RobotoRegular2}) format('woff2'),
          url(${RobotoRegular}) format('woff');
   }
+
   @font-face {
-    font-family: 'RobotoBold';
-    src: url(${RobotoBold2}) format('woff2'),
-         url(${RobotoBold}) format('woff');
-  }
-  @font-face {
-    font-family: 'MontserratSemiBold';
-    src: url(${MontserratSemiBold2}) format('woff2'),
-         url(${MontserratSemiBold}) format('woff');
-  }
-  @font-face {
-    font-family: 'PoppinnsMedium';
-    src: url(${PoppinnsMedium}) format('woff');
+    font-family: 'PoppinnsSemiBold';
+    src: url(${PoppinnsSemiBold}) format('woff');
   }
   @font-face {
     font-family: 'PoppinnsRegular';
     src: url(${PoppinnsRegular}) format('woff');
   }
-  @font-face {
-    font-family: 'PoppinnsSemiBold';
-    src: url(${PoppinnsSemiBold}) format('woff');
-  }
+ 
   @font-face {
     font-family: 'IntroScript';
     src: url(${IntroScript2}) format('woff2');

@@ -82,7 +82,7 @@ export const Heading2 = styled.h2`
     justify-content: flex-start;
     flex-direction:column;
     color: var(--color-text-black);
-    font-family: var(--font-family4);
+    font-family: var(--font-family1);
         font-style: normal;
         font-weight: 700;
         font-size: 2em;
@@ -123,7 +123,7 @@ align-items: flex-start;
 margin: 7rem 18rem 2rem;
 `;
 export const Message = styled.div`
-    font-family: var(--font-family4);
+    font-family: var(--font-family1);
     font-style: normal;
     font-weight: 400;
     font-size: 1.25em;
@@ -133,7 +133,7 @@ export const Message = styled.div`
     text-align: justify;
 `;
 export const Heading3 = styled.h1`
-        font-family: var(--font-family4);
+        font-family: var(--font-family1);
         font-style: normal;
         font-weight: 700;
         font-size: 1.5em;

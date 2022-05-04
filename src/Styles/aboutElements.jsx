@@ -13,7 +13,7 @@ margin: 0 0 0 4rem;
 
 `;
 export const Heading = styled.h1`
-        font-family: var(--font-family4);
+        font-family: var(--font-family1);
         font-style: normal;
         font-weight: 700;
         font-size: 1.5em;
@@ -28,7 +28,7 @@ export const Chess = styled.a`
 `;
 
 export const Message = styled.div`
-    font-family: var(--font-family4);
+    font-family: var(--font-family1);
     font-style: normal;
     font-weight: 400;
     font-size: 1.25em;

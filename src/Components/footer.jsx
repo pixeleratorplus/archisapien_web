@@ -5,16 +5,14 @@ import { animateScroll as scroll } from 'react-scroll';
 
 function Footer() {
 
-    const toggleHome = () => {
-        scroll.scrollToTop();
-      }
+    
+
     return (
     <>
     <Container>
 
     <Container2>
      <Heading>© 2022 Made with ❤️ by Amitesh | India | Last updated on April '22</Heading>
-    {/* <Top onClick={toggleHome}><Button4>Go To Top</Button4></Top> */}
     </Container2>
 
     </Container>

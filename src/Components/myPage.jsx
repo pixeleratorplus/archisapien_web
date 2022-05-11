@@ -5,11 +5,13 @@ import {Button5} from './Button/Button1';
 import { BsArrowLeft } from "react-icons/bs";
 import { FaInstagram, FaLinkedinIn, FaAngellist, FaBehance } from "react-icons/fa";
 import { Social } from "./social";
-
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 const MyPage = () => {
     return (
       <>
+      <Zoom>
       <HeroContainer>
       <HeroBg>
       <Image src="./images/me.jpg"/>
@@ -22,6 +24,8 @@ const MyPage = () => {
       <Heading>Namaskar🙏, This is Amitesh!</Heading>
       </HeroContent>
       </HeroContainer>
+      </Zoom>
+      <Fade bottom>
         <Container2>
             <Message>Hailing from Kolkata, I am an Architect turned Experience Designer who likes the blend of design, code and business. Which enables me to understand and consider the needs of the diverse product team to make decisions, most importantly for the user.</Message>
         <Heading3>About Me an my Interests</Heading3>
@@ -44,6 +48,8 @@ const MyPage = () => {
             <ImageM src="./images/m16.png"/>
             </GroupC>
         </Container2>
+        </Fade>
+        <Fade bottom>
       <Container>
         <Heading3>Little things that I am proud about -</Heading3>
         <Group>
@@ -65,8 +71,9 @@ const MyPage = () => {
             </GroupB>
         </Group>
       </Container>
+    </Fade>
      <Social/>
-    </>
+     </>
     );
   }
   

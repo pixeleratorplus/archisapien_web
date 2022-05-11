@@ -17,6 +17,7 @@ import {
 } from "firebase/firestore";
 import { useParams } from 'react-router-dom';
 import { Project } from '../../data/ProjectData';
+import Fade from 'react-reveal/Fade';
 
 
 const ProjectData = ({headline, subHead, img}) =>{
@@ -33,18 +34,19 @@ const ProjectData = ({headline, subHead, img}) =>{
 
 return(
     <Container>
-            <HeadingPad>
+            <Fade bottom><HeadingPad>
             <Heading> {headline} </Heading>
             <SubHeading>{subHead}</SubHeading>
-            </HeadingPad>
+            </HeadingPad></Fade>
             {/* <Img src={Img}/> */}
+            <Fade bottom>
          {img.map((il, key) =>{
              return(
                  <Img 
                  key={key}
                  src={il.img}/>
              )
-         })}
+         })}</Fade>
         </Container>
 
 )

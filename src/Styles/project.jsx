@@ -78,4 +78,6 @@ export const Img = styled.img`
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+    padding:0;
+    margin:0;
     `;

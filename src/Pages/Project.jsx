@@ -15,7 +15,7 @@ const Projects = ({ change }) => {
         transform:  scale(5);
         color: #000000;
         opacity: 25%;
-
+        cursor: pointer;
         @media screen and (max-width: 480px) {
             right: 10%;
             transform:  scale(2);

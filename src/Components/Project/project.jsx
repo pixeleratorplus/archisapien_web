@@ -18,6 +18,7 @@ import {
 import { useParams } from 'react-router-dom';
 import { Project } from '../../data/ProjectData';
 import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 
 const ProjectData = ({headline, subHead, img}) =>{
@@ -39,14 +40,15 @@ return(
             <SubHeading>{subHead}</SubHeading>
             </HeadingPad></Fade>
             {/* <Img src={Img}/> */}
-            <Fade bottom>
+            {/* <Zoom> */}
          {img.map((il, key) =>{
              return(
                  <Img 
                  key={key}
                  src={il.img}/>
              )
-         })}</Fade>
+         })}
+         {/* </Zoom> */}
         </Container>
 
 )
